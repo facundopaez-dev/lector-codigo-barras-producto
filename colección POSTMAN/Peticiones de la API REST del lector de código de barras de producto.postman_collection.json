@@ -1,0 +1,161 @@
+{
+	"info": {
+		"_postman_id": "1b5ce3c6-78e3-4791-80a0-e47779d6b1f9",
+		"name": "Peticiones de la API REST del lector de código de barras de producto",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "25073778"
+	},
+	"item": [
+		{
+			"name": "Obtención de datos del código 0001E401ACME",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/api/barcodereader/0001E401ACME",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"barcodereader",
+						"0001E401ACME"
+					]
+				},
+				"description": "El código tiene una longitud entre 12 y 13 caracteres, y el formato esperado."
+			},
+			"response": []
+		},
+		{
+			"name": "Obtención de datos del código 6001J445ACME",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/api/barcodereader/6001J445ACME",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"barcodereader",
+						"6001J445ACME"
+					]
+				},
+				"description": "El código tiene una longitud entre 12 y 13 caracteres, y el formato esperado."
+			},
+			"response": []
+		},
+		{
+			"name": "Obtención de datos del código 2000D4001ACME",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/api/barcodereader/2000D4001ACME",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"barcodereader",
+						"2000D4001ACME"
+					]
+				},
+				"description": "El código tiene una longitud entre 12 y 13 caracteres, y el formato esperado."
+			},
+			"response": []
+		},
+		{
+			"name": "Petición con un código con una longitud menor a la mínima (12)",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/api/barcodereader/0001E40ACME",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"barcodereader",
+						"0001E40ACME"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Petición con un código con una longitud mayor a la máxima (13)",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/api/barcodereader/2000D4001ACMEX",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"barcodereader",
+						"2000D4001ACMEX"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Petición con un código que tiene un símbolo especial: @",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/api/barcodereader/0001E@01ACME",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"barcodereader",
+						"0001E@01ACME"
+					]
+				},
+				"description": "El código tiene una longitud entre 12 y 13 caracteres, pero no tiene el formato esperado porque tiene una @."
+			},
+			"response": []
+		},
+		{
+			"name": "Petición con un código que tiene la palabra ACME al inicio",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/api/barcodereader/ACME6001J445",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"barcodereader",
+						"ACME6001J445"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
