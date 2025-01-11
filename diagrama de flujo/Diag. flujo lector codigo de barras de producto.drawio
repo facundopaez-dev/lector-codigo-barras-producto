@@ -1,0 +1,74 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36" version="26.0.5">
+  <diagram name="Página-1" id="WXxStOmw-sdzjPIVwEb8">
+    <mxGraphModel dx="574" dy="313" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="R3Kr8VYcXCIDvXlEkNcb-24" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="R3Kr8VYcXCIDvXlEkNcb-1" target="R3Kr8VYcXCIDvXlEkNcb-3" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="R3Kr8VYcXCIDvXlEkNcb-1" value="Convertir el código a mayúsculas" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="195" y="280" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="R3Kr8VYcXCIDvXlEkNcb-9" value="No" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="R3Kr8VYcXCIDvXlEkNcb-2" target="R3Kr8VYcXCIDvXlEkNcb-8" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="R3Kr8VYcXCIDvXlEkNcb-23" value="Sí" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="R3Kr8VYcXCIDvXlEkNcb-2" target="R3Kr8VYcXCIDvXlEkNcb-1" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="R3Kr8VYcXCIDvXlEkNcb-2" value="¿El código ingresado tiene&lt;div&gt;una&amp;nbsp;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;longitud de entre 12&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;y&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;13 caracteres?&lt;/span&gt;&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="160" y="90" width="190" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="R3Kr8VYcXCIDvXlEkNcb-11" value="No" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="R3Kr8VYcXCIDvXlEkNcb-3" target="R3Kr8VYcXCIDvXlEkNcb-10" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="R3Kr8VYcXCIDvXlEkNcb-25" value="Sí" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="R3Kr8VYcXCIDvXlEkNcb-3" target="R3Kr8VYcXCIDvXlEkNcb-13" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="R3Kr8VYcXCIDvXlEkNcb-3" value="¿El código ingresado tiene&lt;div&gt;el formato esperado?&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="160" y="380" width="190" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="R3Kr8VYcXCIDvXlEkNcb-4" value="" style="ellipse;html=1;shape=startState;fillColor=#000000;strokeColor=light-dark(#000000, #ff9090);" parent="1" vertex="1">
+          <mxGeometry x="240" y="10" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="R3Kr8VYcXCIDvXlEkNcb-5" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=light-dark(#000000, #ff9090);rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="R3Kr8VYcXCIDvXlEkNcb-4" target="R3Kr8VYcXCIDvXlEkNcb-2" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="255" y="100" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="R3Kr8VYcXCIDvXlEkNcb-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="R3Kr8VYcXCIDvXlEkNcb-8" target="R3Kr8VYcXCIDvXlEkNcb-12" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="700" y="160" />
+              <mxPoint x="700" y="785" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="R3Kr8VYcXCIDvXlEkNcb-8" value="Mostrar el mensaje &quot;Longitud incorrecta: el código debe tener una longitud de entre 12 y 13 caracteres&quot;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="451" y="117.5" width="150" height="85" as="geometry" />
+        </mxCell>
+        <mxCell id="R3Kr8VYcXCIDvXlEkNcb-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="R3Kr8VYcXCIDvXlEkNcb-10" target="R3Kr8VYcXCIDvXlEkNcb-12" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="R3Kr8VYcXCIDvXlEkNcb-10" value="Mostrar el mensaje &quot;El código no tiene el formato esperado: 4 dígitos (lote), seguidos de 1 carácter alfabético correspondiente a la letra inicial del nombre de un mes, seguido de 1 dígito (año), seguido de 2 o 3 dígitos (bulto), seguidos de la palabra fija ACME&quot;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="411" y="392.5" width="230" height="115" as="geometry" />
+        </mxCell>
+        <mxCell id="R3Kr8VYcXCIDvXlEkNcb-12" value="" style="ellipse;html=1;shape=endState;fillColor=#000000;strokeColor=light-dark(#000000, #ff9090);" parent="1" vertex="1">
+          <mxGeometry x="240" y="770" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="R3Kr8VYcXCIDvXlEkNcb-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="R3Kr8VYcXCIDvXlEkNcb-13" target="R3Kr8VYcXCIDvXlEkNcb-14" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="R3Kr8VYcXCIDvXlEkNcb-13" value="Extraer el lote extendido y el bulto del código" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="195" y="570" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="R3Kr8VYcXCIDvXlEkNcb-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="R3Kr8VYcXCIDvXlEkNcb-14" target="R3Kr8VYcXCIDvXlEkNcb-12" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="R3Kr8VYcXCIDvXlEkNcb-14" value="Devolver el código, el lote extendido y el bulto" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="195" y="670" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
