@@ -1,13 +1,13 @@
 {
 	"info": {
-		"_postman_id": "1b5ce3c6-78e3-4791-80a0-e47779d6b1f9",
-		"name": "Peticiones de la API REST del lector de código de barras de producto",
+		"_postman_id": "60e5a663-6a10-413a-9420-d7d762440bbb",
+		"name": "Peticiones de la API REST del lector de código de barras de productos",
 		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
 		"_exporter_id": "25073778"
 	},
 	"item": [
 		{
-			"name": "Obtención de datos del código 0001E401ACME",
+			"name": "Obtención de datos del código de barras 0001E401ACME",
 			"request": {
 				"method": "GET",
 				"header": [],
@@ -29,7 +29,7 @@
 			"response": []
 		},
 		{
-			"name": "Obtención de datos del código 6001J445ACME",
+			"name": "Obtención de datos del código de barras 6001J445ACME",
 			"request": {
 				"method": "GET",
 				"header": [],
@@ -51,7 +51,7 @@
 			"response": []
 		},
 		{
-			"name": "Obtención de datos del código 2000D4001ACME",
+			"name": "Obtención de datos del código de barras 2000D4001ACME",
 			"request": {
 				"method": "GET",
 				"header": [],
@@ -73,7 +73,7 @@
 			"response": []
 		},
 		{
-			"name": "Petición con un código con una longitud menor a la mínima (12)",
+			"name": "Petición con un código de barras con una longitud menor a la mínima (12)",
 			"request": {
 				"method": "GET",
 				"header": [],
@@ -94,7 +94,7 @@
 			"response": []
 		},
 		{
-			"name": "Petición con un código con una longitud mayor a la máxima (13)",
+			"name": "Petición con un código de barras con una longitud mayor a la máxima (13)",
 			"request": {
 				"method": "GET",
 				"header": [],
@@ -115,7 +115,7 @@
 			"response": []
 		},
 		{
-			"name": "Petición con un código que tiene un símbolo especial: @",
+			"name": "Petición con un código de barras que tiene un símbolo especial: @",
 			"request": {
 				"method": "GET",
 				"header": [],
@@ -137,7 +137,7 @@
 			"response": []
 		},
 		{
-			"name": "Petición con un código que tiene la palabra ACME al inicio",
+			"name": "Petición con un código de barras que tiene la palabra ACME al inicio",
 			"request": {
 				"method": "GET",
 				"header": [],
