@@ -20,7 +20,7 @@
     - 5.2. Escriba *Existing Maven Projects* en el campo **Select an import wizard**, seleccione **Existing Maven Projects** y haga clic en **Next**.
     - 5.3. En el campo **Root Directory** seleccione la carpeta descomprimida del proyecto y haga clic en **Finish**. Eclipse descargará las dependencias necesarias y configurará el proyecto automáticamente. Este proceso puede tardar unos minutos dependiendo de la velocidad de tu conexión a internet.
 
-6. Cloné este repositorio.
+6. Clone este repositorio.
 7. Importe el lector de código de barras en Eclipse siguiendo los siguientes pasos:
     - 7.1. Navegue al paquete **com.example.demo** del proyecto. Para hacerlo, abra el proyecto y luego accede a la carpeta **src/main/java**.
     - 7.2. Haga clic derecho sobre el paquete **com.example.demo** y seleccione **Import**.
