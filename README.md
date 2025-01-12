@@ -16,17 +16,17 @@
 3. Descomprima el archivo descargado para obtener la carpeta del proyecto.
 4. Inicie "Eclipse IDE for Enterprise Java and Web Developers".
 5. Importe el proyecto en Eclipse siguiendo los siguientes pasos:
-- 5.1. Haga clic en **File > Import**.
-- 5.2. Escriba *Existing Maven Projects* en el campo **Select an import wizard**, seleccione **Existing Maven Projects** y haga clic en **Next**.
-- 5.3. En el campo **Root Directory** seleccione la carpeta descomprimida del proyecto y haga clic en **Finish**. Eclipse descargará las dependencias necesarias y configurará el proyecto automáticamente. Este proceso puede tardar unos minutos dependiendo de la velocidad de tu conexión a internet.
+    - 5.1. Haga clic en **File > Import**.
+    - 5.2. Escriba *Existing Maven Projects* en el campo **Select an import wizard**, seleccione **Existing Maven Projects** y haga clic en **Next**.
+    - 5.3. En el campo **Root Directory** seleccione la carpeta descomprimida del proyecto y haga clic en **Finish**. Eclipse descargará las dependencias necesarias y configurará el proyecto automáticamente. Este proceso puede tardar unos minutos dependiendo de la velocidad de tu conexión a internet.
 
 6. Cloné este repositorio.
 7. Importe el lector de código de barras en Eclipse siguiendo los siguientes pasos:
-- 7.1. Navegue al paquete **com.example.demo** del proyecto. Para hacerlo, abra el proyecto y luego accede a la carpeta **src/main/java**.
-- 7.2. Haga clic derecho sobre el paquete **com.example.demo** y seleccione **Import**.
-- 7.3. Escriba *File System* en el campo **Select an import wizard**, seleccione **File System** y haga clic en **Next**.
-- 7.4. En el campo **From directory** seleccione la carpeta **src** del repositorio clonado.
-- 7.5. Marque la carpeta **src** en el campo izquierdo y haga clic en **Finish**.
+    - 7.1. Navegue al paquete **com.example.demo** del proyecto. Para hacerlo, abra el proyecto y luego accede a la carpeta **src/main/java**.
+    - 7.2. Haga clic derecho sobre el paquete **com.example.demo** y seleccione **Import**.
+    - 7.3. Escriba *File System* en el campo **Select an import wizard**, seleccione **File System** y haga clic en **Next**.
+    - 7.4. En el campo **From directory** seleccione la carpeta **src** del repositorio clonado.
+    - 7.5. Marque la carpeta **src** en el campo izquierdo y haga clic en **Finish**.
 
 ## Ejecución y prueba
 1. En Eclipse haga clic derecho sobre la carpeta **src/main/java** y diríjase a **Run As**.
@@ -34,11 +34,12 @@
 
 A continuación, se describen dos alternativas para probar el funcionamiento del lector de códigos de barras de productos.
 
+- Si el código de barras es válido, el programa devolverá una respuesta JSON que incluye el código de barras, el lote extendido y el bulto.
+- Si el código de barras no es válido, el programa devolverá una respuesta JSON con un mensaje de error indicando el problema.
+
 ### Prueba con un navegador web
 3. Copie el siguiente URL ```http://localhost:8080/api/barcodereader/<barcode>``` y péguelo en la barra de búsqueda de un navegador web.
 4. Reemplace `<barcode>` por un código de barras y presione Enter.
-- Si el código de barras es válido, el programa devolverá una respuesta JSON que incluye el código de barras, el lote extendido y el bulto.
-- Si el código de barras no es válido, el programa devolverá una respuesta JSON con un mensaje de error indicando el problema.
 
 ### Prueba con POSTMAN
 5. Inicie POSTMAN.
