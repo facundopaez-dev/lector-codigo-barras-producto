@@ -44,5 +44,5 @@ A continuación, se describen dos alternativas para realizar las pruebas.
 
 ### Prueba con POSTMAN
 5. Inicie POSTMAN.
-6. Importe el archivo ```Peticiones de la API REST del lector de código de barras de producto.postman_collection.json``` que se encuentra en la carpeta **colección POSTMAN** del repositorio clonado.
+6. Importe el archivo ```Peticiones de la API REST del lector de código de barras de productos.postman_collection.json``` que se encuentra en la carpeta **colección POSTMAN** del repositorio clonado.
 7. Abra una de las peticiones del archivo importado y haga clic en el botón **Send**. POSTMAN mostrará la respuesta de la API REST, que puede ser un JSON con los datos esperados o un mensaje de error, dependiendo del código de barras ingresado.
