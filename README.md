@@ -5,12 +5,12 @@
 
 ## Configuración del proyecto
 1. Acceda a [Spring Initializr](https://start.spring.io/), no modifique ninguno de los campos de **Project Metadata** y seleccione las siguientes opciones:
-- Project: Maven
-- Languaje: Java
-- Spring Boot: 3.4.1
-- Packaging: Jar
-- Java: 17
-- Dependencies: Haga clic en el botón 'ADD DEPENDENCIES' y seleccione Spring Web.
+    - Project: Maven
+    - Languaje: Java
+    - Spring Boot: 3.4.1
+    - Packaging: Jar
+    - Java: 17
+    - Dependencies: Haga clic en el botón 'ADD DEPENDENCIES' y seleccione Spring Web.
 
 2. Haga clic en el botón 'GENERATE'.
 3. Descomprima el archivo descargado para obtener la carpeta del proyecto.
