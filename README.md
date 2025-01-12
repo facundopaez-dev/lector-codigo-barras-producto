@@ -29,13 +29,14 @@
     - 7.5. Marque la carpeta **src** en el campo izquierdo y haga clic en **Finish**.
 
 ## Ejecución y prueba
-1. En Eclipse haga clic derecho sobre la carpeta **src/main/java** y diríjase a **Run As**.
-2. Seleccione **Java Application** para ejecutar el lector de códigos de barras de producto.
-
-A continuación, se describen dos alternativas para probar el funcionamiento del lector de códigos de barras de productos.
-
+Antes de probar el funcionamiento del lector de códigos de barras de productos, es importante tener en cuenta lo siguiente:
 - Si el código de barras es válido, el programa devolverá una respuesta JSON que incluye el código de barras, el lote extendido y el bulto.
 - Si el código de barras no es válido, el programa devolverá una respuesta JSON con un mensaje de error indicando el problema.
+
+1. En Eclipse haga clic derecho sobre la carpeta **src/main/java** y diríjase a **Run As**.
+2. Seleccione **Java Application** para ejecutar el lector de códigos de barras de productos.
+
+A continuación, se describen dos alternativas para realizar las pruebas.
 
 ### Prueba con un navegador web
 3. Copie el siguiente URL ```http://localhost:8080/api/barcodereader/<barcode>``` y péguelo en la barra de búsqueda de un navegador web.
