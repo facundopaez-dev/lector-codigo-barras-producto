@@ -21,8 +21,8 @@
     - 5.3. En el campo **Root Directory** seleccione la carpeta descomprimida del proyecto y haga clic en **Finish**. Eclipse descargará las dependencias necesarias y configurará el proyecto automáticamente. Este proceso puede tardar unos minutos dependiendo de la velocidad de tu conexión a internet.
 
 6. Clone este repositorio.
-7. Importe el lector de código de barras en Eclipse siguiendo los siguientes pasos:
-    - 7.1. Navegue al paquete **com.example.demo** del proyecto importado. Para hacerlo, haga clic sobre el proyecto y luego sobre la carpeta **src/main/java**.
+7. Importe el lector de códigos de barras de productos en Eclipse siguiendo los siguientes pasos:
+    - 7.1. Navegue al paquete **com.example.demo** del proyecto importado. Para hacerlo, haga clic sobre el proyecto y luego sobre la carpeta **src/main/java** en el panel lateral izquierdo.
     - 7.2. Haga clic derecho sobre el paquete **com.example.demo** y seleccione **Import**.
     - 7.3. Escriba *File System* en el campo **Select an import wizard**, seleccione **File System** y haga clic en **Next**.
     - 7.4. En el campo **From directory** seleccione la carpeta **src** del repositorio clonado.
