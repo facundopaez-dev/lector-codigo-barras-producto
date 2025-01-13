@@ -39,10 +39,10 @@ Antes de probar el funcionamiento del lector de códigos de barras de productos,
 A continuación, se describen dos alternativas para realizar las pruebas.
 
 ### Prueba con un navegador web
-3. Copie el siguiente URL ```http://localhost:8080/api/barcodereader/<barcode>``` y péguelo en la barra de búsqueda de un navegador web.
-4. Reemplace `<barcode>` por un código de barras y presione Enter.
+1. Copie el siguiente URL ```http://localhost:8080/api/barcodereader/<barcode>``` y péguelo en la barra de búsqueda de un navegador web.
+2. Reemplace `<barcode>` por un código de barras y presione Enter.
 
 ### Prueba con POSTMAN
-5. Inicie POSTMAN.
-6. Importe el archivo ```Peticiones de la API REST del lector de códigos de barras de productos.postman_collection.json``` que se encuentra en la carpeta **colección POSTMAN** del repositorio clonado.
-7. Abra una de las peticiones del archivo importado y haga clic en el botón **Send**. POSTMAN mostrará la respuesta de la API REST, que puede ser un JSON con los datos esperados o un mensaje de error, dependiendo del código de barras ingresado.
+1. Inicie POSTMAN.
+2. Importe el archivo ```Peticiones de la API REST del lector de códigos de barras de productos.postman_collection.json``` que se encuentra en la carpeta **colección POSTMAN** del repositorio clonado.
+3. Abra una de las peticiones del archivo importado y haga clic en el botón **Send**. POSTMAN mostrará la respuesta de la API REST, que puede ser un JSON con los datos esperados o un mensaje de error, dependiendo del código de barras ingresado.
